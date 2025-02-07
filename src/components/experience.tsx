@@ -13,7 +13,7 @@ export function Experience() {
       <div className="container">
         <div className="text-center" data-aos="fade-up">
           <div className="inline-block">
-            <div className="bg-yellow text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
+            <div className="bg-primaryColor text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
               <Sparkle size={16} />
               <span className="text-sm">Life Time</span>
             </div>
@@ -39,7 +39,7 @@ export function Experience() {
                       <GraduationCap size={34} className="inline-block" />
                       <div className="mt-7">
                         <div className="flex flex-col justify-end gap-4 lg:flex-row lg:items-center lg:gap-12">
-                          <p className="text-yellow font-semibold">
+                          <p className="text-primaryColor font-semibold">
                             2018 - 2020
                           </p>
                           <p className="text-xl font-semibold">
@@ -69,7 +69,7 @@ export function Experience() {
                       <BriefcaseBusiness size={34} className="inline-block" />
                       <div className="mt-7">
                         <div className="flex gap-4 items-center">
-                          <p className="text-yellow font-semibold">2020</p>
+                          <p className="text-primaryColor font-semibold">2020</p>
                           <p className="text-xl font-semibold">Cabo</p>
                         </div>
                         <p className="text-zinc-400 mt-6">
@@ -96,7 +96,7 @@ export function Experience() {
                       <BriefcaseBusiness size={34} className="inline-block" />
                       <div className="mt-7">
                         <div className="flex flex-col justify-end gap-4 lg:flex-row lg:items-center lg:gap-12">
-                          <p className="text-yellow font-semibold">
+                          <p className="text-primaryColor font-semibold">
                             2021 - Atual
                           </p>
                           <p className="text-xl font-semibold">RSA</p>
@@ -149,7 +149,7 @@ export function Experience() {
                       <GraduationCap size={34} className="inline-block" />
                       <div className="mt-7">
                         <div className="flex gap-4 items-center">
-                          <p className="text-yellow font-semibold">
+                          <p className="text-primaryColor font-semibold">
                             2021 - 2022
                           </p>
                           <p className="text-xl font-semibold">
@@ -178,7 +178,7 @@ export function Experience() {
                       <GraduationCap size={34} className="inline-block" />
                       <div className="mt-7">
                         <div className="flex flex-col justify-end gap-4 lg:flex-row lg:items-center lg:gap-12">
-                          <p className="text-yellow font-semibold">
+                          <p className="text-primaryColor font-semibold">
                             2022 - 2023
                           </p>
                           <p className="text-xl font-semibold">
@@ -204,7 +204,7 @@ export function Experience() {
                       <GraduationCap size={34} className="inline-block" />
                       <div className="mt-7">
                         <div className="flex gap-4 items-center">
-                          <p className="text-yellow font-semibold">2023</p>
+                          <p className="text-primaryColor font-semibold">2023</p>
                           <p className="text-xl font-semibold">
                             Fundamentos em liderança
                           </p>
@@ -228,7 +228,7 @@ export function Experience() {
                       <GraduationCap size={34} className="inline-block" />
                       <div className="mt-7">
                         <div className="flex flex-col justify-end gap-4 lg:flex-row lg:items-center lg:gap-12">
-                          <p className="text-yellow font-semibold">
+                          <p className="text-primaryColor font-semibold">
                             2024 (Em andamento)
                           </p>
                           <p className="text-xl font-semibold">Formação G4</p>

@@ -7,11 +7,8 @@ import { useEffect } from 'react'
 import AOS from 'aos'
 
 import { AboutMe } from '@/components/about-me'
-import { Experience } from '@/components/experience'
 import { HomeComponent } from '@/components/home'
-import { Projects } from '@/components/projects'
 import { Services } from '@/components/services'
-import { Skills } from '@/components/skills'
 
 export default function Home() {
   useEffect(() => {
@@ -27,9 +24,6 @@ export default function Home() {
       <HomeComponent />
       <AboutMe />
       <Services />
-      <Experience />
-      <Skills />
-      <Projects />
     </>
   )
 }

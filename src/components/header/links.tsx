@@ -14,7 +14,9 @@ export function HeaderLinks({ activeId, href, name }: HeaderLinksProps) {
       href={`/${href}`}
       className={cn(
         'inline-block py-2 leading-6 duration-300 md:font-semibold',
-        activeId === href ? 'text-yellow' : 'text-white hover:text-yellow',
+        activeId === href
+          ? 'text-primaryColor'
+          : 'text-white hover:text-primaryColor',
       )}
     >
       {name}

@@ -14,7 +14,7 @@ export function SectionTitle({
   return (
     <div className="text-center" data-aos="fade-up">
       <div className="inline-block">
-        <div className="bg-yellow text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
+        <div className="bg-primaryColor text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
           <Sparkle size={16} />
           <span className="text-sm">{title}</span>
         </div>

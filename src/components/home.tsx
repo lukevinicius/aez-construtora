@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 import { Button } from '@/components/ui/button'
 
+import aezCasa from '@/assets/aez-casa.svg'
 import curriculum from '@/assets/curriculumPT.pdf'
-import fotoPessoal from '@/assets/fotopessoal.svg'
 
 export function HomeComponent() {
   function handleDownloadCV() {
@@ -19,34 +19,26 @@ export function HomeComponent() {
           <div className="flex flex-col flex-wrap items-center gap-5 lg:flex-row">
             <div className="w-full lg:w-1/2">
               <div className="py-16 md:py-24 w-full">
-                <p className="font-semibold text-lg p-2.5 bg-yellow/20 inline-block text-yellow">
-                  Olá! Eu sou Lucas vinicius.
+                <p className="font-semibold text-lg p-2.5 bg-primaryColor/20 inline-block text-primaryColor">
+                  Bem vindo!
                 </p>
                 <p className="font-bold text-3xl/normal md:text-[50px]/normal text-black mt-8">
-                  Web developer
+                  De A a Z Construtora
                 </p>
                 <p className="text-zinc-500 mt-6">
-                  Eu sou um desenvolvedor de software que gosta de criar coisas
-                  para a web.
+                  Somos uma empresa de construção civil que atua no mercado a
+                  mais de 5 anos, com uma equipe de profissionais qualificados e
+                  prontos para atender a sua necessidade.
                 </p>
                 <div className="flex flex-wrap gap-5 mt-10 max-md:justify-center">
-                  <Link href="https://wa.me/5588988139063?text=Ol%C3%A1%20Lucas%2C%20estou%20entrando%20em%20contato%20pois%20gostei%20do%20seu%20curriculo%2C%20e%20acredito%20que%20voc%C3%AA%20tenha%20a%20experiencia%20que%20procuro%20nesse%20momento">
+                  <Link href="https://wa.link/38f04r">
                     <Button
                       size="lg"
-                      className="mt-8 bg-yellow hover:bg-yellow/85"
+                      className="mt-8 bg-primaryColor hover:bg-primaryColor/85"
                     >
-                      Contrate-me
+                      Entrar em contato
                     </Button>
                   </Link>
-                  <Button
-                    size="lg"
-                    variant="outline"
-                    className="mt-8"
-                    type="button"
-                    onClick={handleDownloadCV}
-                  >
-                    Download CV
-                  </Button>
                 </div>
 
                 <div className="grid grid-cols-2 pt-12 md:pt-20 md:gap-12">
@@ -62,13 +54,10 @@ export function HomeComponent() {
               </div>
             </div>
 
-            <div className="bg-[radial-gradient(#10475E,#3D717E,#F9A825)] max-w-[800px] md:top-[100px] lg:absolute bottom-0 right-0 lg:w-6/12 w-full">
-              <p className="max-w-2xl mx-auto mt-5 text-5xl font-extrabold text-center text-transparent uppercase md:text-7xl lg:text-8xl bg-gradient-to-b from-white/70 bg-clip-text">
-                Lucas vinicius
-              </p>
+            <div className="bg-[radial-gradient(#f3562b,#f3562b,#f3562b)] max-w-[800px] md:top-[100px] lg:absolute bottom-0 right-0 lg:w-6/12 w-full">
               <div>
                 <Image
-                  src={fotoPessoal}
+                  src={aezCasa}
                   alt="Foto pessoal"
                   className="inset-x-0 bottom-0 mx-auto -mt-16 lg:absolute md:mt-0"
                 />

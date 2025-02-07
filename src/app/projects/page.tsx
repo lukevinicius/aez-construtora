@@ -61,7 +61,7 @@ export default function ProjectsPage() {
         <div className="text-center" data-aos="fade-up">
           <Button
             size="lg"
-            className="mt-8 bg-yellow hover:bg-yellow/85 mx-auto"
+            className="mt-8 bg-primaryColor hover:bg-primaryColor/85 mx-auto"
           >
             Ver todos
           </Button>

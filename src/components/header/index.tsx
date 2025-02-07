@@ -43,20 +43,12 @@ export function Header() {
       href: '#home',
     },
     {
-      name: 'Sobre mim',
+      name: 'Sobre nos',
       href: '#about-me',
     },
     {
       name: 'Serviços',
       href: '#services',
-    },
-    {
-      name: 'Projetos',
-      href: '#projects',
-    },
-    {
-      name: 'Clientes',
-      href: '#clientes',
     },
     {
       name: 'Contato',
@@ -69,7 +61,7 @@ export function Header() {
       <div className="container">
         <div className="flex items-center justify-between w-full">
           <Link className="font-semibold text-white" href="/">
-            lukevinicius.dev
+            De A a Z Construtora
           </Link>
           <HeaderDesktop activeId={activeId} links={links} />
           <HeaderMobile activeId={activeId} links={links} />

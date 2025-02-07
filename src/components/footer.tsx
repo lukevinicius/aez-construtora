@@ -4,7 +4,6 @@ import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 
 import instagramIcon from '@/assets/instagram.svg'
-import linkedinIcon from '@/assets/linkedin.svg'
 import phoneCall from '@/assets/phone-call.svg'
 
 export function Footer() {
@@ -18,7 +17,7 @@ export function Footer() {
                 Tem um projeto em mente? Vamos começar a trabalhar.
               </p>
               <div className="inline-block mt-8 md:mt-14">
-                <Button className="bg-yellow hover:bg-yellow/80">
+                <Button className="bg-primaryColor hover:bg-primaryColor/80">
                   Entrar em contato
                 </Button>
               </div>
@@ -35,7 +34,7 @@ export function Footer() {
               <div className="mt-7">
                 <span className="text-white/80">Seg - Sex de 8h ás 17h.</span>
                 <p className="mt-3 text-lg font-semibold">
-                  +55 (88) 98813-9063
+                  +55 (88) 98889-8862
                 </p>
               </div>
             </div>
@@ -46,7 +45,7 @@ export function Footer() {
                   Seg - Sex de 8h ás 17h.
                 </span> */}
                 <p className="mt-3 text-lg font-semibold">
-                  lucas.vinicius.a@proton.me
+                  contato@construtoradeaaz.com
                 </p>
               </div>
             </div>
@@ -66,15 +65,12 @@ export function Footer() {
             <div className="h-[2px] bg-white/10 block mt-12" />
             <div className="flex flex-col items-center py-5 md:flex-row md:justify-between gap-7">
               <p className="text-white text-sm">
-                © Lucas vinicius {new Date().getFullYear()}. Todos os direitos
-                reservados.
+                © De A á Z Construtora {new Date().getFullYear()}. Todos os
+                direitos reservados.
               </p>
               <div className="text-white flex items-center flex-wrap gap-3.5">
-                <a href="https://www.instagram.com/lukevinicius_">
+                <a href="https://www.instagram.com/construtoradeaaz/">
                   <Image src={instagramIcon} alt="instagram-icon" />
-                </a>
-                <a href="https://www.linkedin.com/in/lukevinicius">
-                  <Image src={linkedinIcon} alt="linkedin-icon" />
                 </a>
               </div>
             </div>

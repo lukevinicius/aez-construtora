@@ -7,8 +7,8 @@ import { Footer } from '@/components/footer'
 import { Header } from '@/components/header'
 
 export const metadata: Metadata = {
-  title: 'Portfolio | lukevinicius',
-  description: 'Personal portfolio of Luke Vinicius',
+  title: 'Royal Moveis',
+  description: 'Móveis planejados e sob medida em Juazeiro do norte',
 }
 
 const sora = Sora({

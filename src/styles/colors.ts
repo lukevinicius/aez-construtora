@@ -1,9 +1,9 @@
 export const colors = {
-  yellow: '#F9A826',
+  primaryColor: '#F3562B',
   blue: '#1B1464',
-  white: '#FCFCFC',
-  black: '#262626',
-  grey: '#999999',
+  white: '#DEDEDE',
+  black: '#171717',
+  grey: '#4D4D4D',
   brown: '#A53B00',
   gold: '#A59400',
   purple: '#994ff5',
