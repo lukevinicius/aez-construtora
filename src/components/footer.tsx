@@ -1,5 +1,6 @@
 import { Mail, MapPin, PhoneCall } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import { Button } from '@/components/ui/button'
 
@@ -17,9 +18,14 @@ export function Footer() {
                 Tem um projeto em mente? Vamos começar a trabalhar.
               </p>
               <div className="inline-block mt-8 md:mt-14">
-                <Button className="bg-primaryColor hover:bg-primaryColor/80">
-                  Entrar em contato
-                </Button>
+                <Link href="https://wa.link/38f04r">
+                  <Button
+                    size="lg"
+                    className="mt-8 bg-primaryColor hover:bg-primaryColor/85"
+                  >
+                    Entrar em contato
+                  </Button>
+                </Link>
               </div>
             </div>
             <Image src={phoneCall} alt="phone-call" className="mx-auto" />
