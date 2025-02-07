@@ -7,8 +7,8 @@ import { Footer } from '@/components/footer'
 import { Header } from '@/components/header'
 
 export const metadata: Metadata = {
-  title: 'Royal Moveis',
-  description: 'Móveis planejados e sob medida em Juazeiro do norte',
+  title: 'Construtora de A á Z',
+  description: 'Construtora de A á Z - Construindo sonhos',
 }
 
 const sora = Sora({
