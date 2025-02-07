@@ -4,14 +4,8 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 
 import aezCasa from '@/assets/aez-casa.svg'
-import curriculum from '@/assets/curriculumPT.pdf'
 
 export function HomeComponent() {
-  function handleDownloadCV() {
-    console.log('Download CV')
-    window.open(curriculum)
-  }
-
   return (
     <section id="home" className="pt-[100px] relative">
       <div className="container">
